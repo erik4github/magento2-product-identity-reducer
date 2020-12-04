@@ -1,0 +1,21 @@
+{
+    "name": "erikbleske/magento2-product-identity-reducer",
+    "description": "Disable the product identities extender.",
+    "require": {
+        "php": ">=7.1",
+        "magento/framework": ">=101"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "MIT"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "ErikBleske\\ProductIdentityReducer\\": ""
+        }
+    }
+}
