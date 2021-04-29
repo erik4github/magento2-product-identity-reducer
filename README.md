@@ -1,4 +1,4 @@
-## Product Identity Disabler
+## Product Identity Reducer
 
 A quick fix for issues with large product identities in headers, specifically caused by the `product_identities_extender` plugin.
 
